@@ -15,7 +15,7 @@ client = discord.Client(intents=discord.Intents.default())
 
 
 def gas_track():
-    my_api = Api
+    my_api = Api_bsc
     response = requests.get(f'{my_api}')
     result = response.json()['result']
     result_format = json.dumps(result, indent=2)
@@ -37,7 +37,7 @@ def gas_track():
 
 
 def bsc_price():
-    my_api = Api
+    my_api = Api_bsc
     response = requests.get(f'{my_api}')
     result = response.json()['result']
     result_format = json.dumps(result, indent=2)
