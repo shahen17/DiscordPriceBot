@@ -1,3 +1,3 @@
 Token = ""
-Api = ""
+Api_bsc = ""
 Api_cmc = ""
